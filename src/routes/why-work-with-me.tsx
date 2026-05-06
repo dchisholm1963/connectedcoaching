@@ -64,17 +64,17 @@ const testimonials = [
   {
     name: 'Diane',
     quote:
-      'Working with Donna completely transformed how I show up in my relationships. She has a rare gift for helping you see your own patterns with compassion rather than judgment. I came in feeling chronically disconnected and left feeling like I finally understood myself at a level I never had before.',
+      'I worked with Donna for several years during a very difficult time of transition and loss in my life. Her expertise in creating a safe space for me to process was critical in listening to (and trusting) my inner knowing and wisdom. With Donna\'s guidance and tools, this phase of trauma and upheaval became a chapter in my life of transformative growth and strength for me.',
   },
   {
     name: 'Marni',
     quote:
-      'Donna creates the safest, most nurturing space I have ever experienced in any therapeutic or coaching relationship. Her deep listening and gentle attunement helped me heal wounds I had carried for decades. The way she holds presence changed something fundamental in how I relate to myself and to the people I love.',
+      'Donna has helped me set boundaries with family members and people I interact with, whether it be with work or friends. It\'s inner work that I use DAILY. The work she has done with me and my husband has been life changing. Our communication has been, without a doubt, something we have struggled with our whole marriage. I am so invested in her ability to see us in our raw vulnerable states of desire to be better for one another.',
   },
   {
     name: 'Alan',
     quote:
-      'I was honestly skeptical of coaching before I found Donna. But her approach is grounded, practical, and quietly profound. She helped me understand how my nervous system was driving my reactions in conflict and gave me real, embodied tools to respond differently. My marriage is stronger than it has ever been.',
+      'I have built the capacity and willingness to delve into myself working with Donna. I call it the courage to meet myself. I have learned how to trust being vulnerable, even as a male in Donna\'s presence, who meets me in a positive non-judgemental way. With Donna, I\'m able to stay comfortable in continuing to ask questions, even when I don\'t have to know the answers. Everything Donna teaches, she practices herself in her own life. From feeling difficult emotions to communicating at a deeper level in my relationships with my wife and as a father to my two kids, Donna constantly teaches me how to apply what I\'m learning in my everyday life, keeping it simple and relatable, so I can understand and practice. I now integrate mindful practices in my daily living to create more awareness and understanding of the world around me. This has given me a lot more ease and acceptance about myself and my family.',
   },
 ]
 
@@ -123,44 +123,6 @@ function WhyWorkWithMePage() {
         </div>
       </section>
 
-      {/* Pullquote Banner */}
-      <section
-        className="cc-section"
-        style={{
-          background: 'linear-gradient(135deg, var(--sage-dark) 0%, #4a6850 100%)',
-          padding: '5rem 2rem',
-        }}
-      >
-        <div className="cc-section-inner cc-fade-in">
-          <div style={{ maxWidth: '780px', margin: '0 auto', textAlign: 'center' }}>
-            <p
-              style={{
-                fontFamily: 'Cormorant Garamond, serif',
-                fontSize: 'clamp(1.5rem, 3vw, 2.2rem)',
-                fontStyle: 'italic',
-                fontWeight: 300,
-                color: 'var(--white-warm)',
-                margin: '0 0 1.25rem',
-                lineHeight: 1.5,
-              }}
-            >
-              "The quality of our lives depends on the quality of our relationships."
-            </p>
-            <p
-              style={{
-                fontFamily: 'Jost, sans-serif',
-                fontSize: '0.72rem',
-                letterSpacing: '0.2em',
-                textTransform: 'uppercase',
-                color: 'var(--sage-light)',
-              }}
-            >
-              The foundation of Connected Coaching
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials */}
       <section className="cc-section bg-cream">
         <div className="cc-section-inner">
@@ -172,7 +134,7 @@ function WhyWorkWithMePage() {
             {testimonials.map((t, i) => (
               <div key={i} className="cc-testimonial">
                 <blockquote>"{t.quote}"</blockquote>
-                <p className="cc-testimonial-name">— {t.name}</p>
+                <p className="cc-testimonial-name">{t.name}</p>
               </div>
             ))}
           </div>

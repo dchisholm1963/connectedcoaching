@@ -181,7 +181,7 @@ function ServicesPage() {
                 Connection &amp; Belonging Class Series
               </h3>
               <ul className="cc-service-meta">
-                <li>Sundays starting October 5, 2025</li>
+                <li>Ongoing Sundays</li>
                 <li>4:00–5:30 PM PST</li>
                 <li>Remote (online)</li>
                 <li>6–8 participants</li>
@@ -216,7 +216,7 @@ function ServicesPage() {
                 Mindfulness For Anxiety Series
               </h3>
               <ul className="cc-service-meta">
-                <li>Tuesdays starting October 7, 2025</li>
+                <li>Ongoing Tuesdays</li>
                 <li>4:00–5:30 PM PST</li>
                 <li>Remote (online)</li>
                 <li>6–8 participants</li>
@@ -287,6 +287,13 @@ function ServicesPage() {
                 others. Explores patterns, deepens self-awareness, and builds relational skills.
               </p>
               <div className="cc-price">$120 / session</div>
+              <a
+                href="mailto:dchisholm114@gmail.com?subject=Individual Session - Registration Inquiry"
+                className="btn-primary"
+                style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem', marginTop: '1rem', display: 'inline-block' }}
+              >
+                Register
+              </a>
             </div>
             <div className="cc-service-card">
               <div className="cc-service-tag">Couples</div>
@@ -296,6 +303,13 @@ function ServicesPage() {
                 Builds shared language, attunement practices, and pathways to deeper intimacy.
               </p>
               <div className="cc-price">$120 / session</div>
+              <a
+                href="mailto:dchisholm114@gmail.com?subject=Couples Session - Registration Inquiry"
+                className="btn-primary"
+                style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem', marginTop: '1rem', display: 'inline-block' }}
+              >
+                Register
+              </a>
             </div>
             <div className="cc-service-card">
               <div className="cc-service-tag">Family</div>
@@ -305,9 +319,19 @@ function ServicesPage() {
                 create a foundation of safety, belonging, and authentic connection.
               </p>
               <div className="cc-price">$120 / session</div>
+              <a
+                href="mailto:dchisholm114@gmail.com?subject=Family Session - Registration Inquiry"
+                className="btn-primary"
+                style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem', marginTop: '1rem', display: 'inline-block' }}
+              >
+                Register
+              </a>
             </div>
           </div>
-          <div style={{ textAlign: 'center', marginTop: '3rem' }} className="cc-fade-in">
+          <p style={{ textAlign: 'center', fontSize: '0.88rem', color: 'var(--warm-muted)', marginTop: '2rem', fontWeight: 300, fontStyle: 'italic' }}>
+            Scholarships are available on an individual basis. Reach out to discuss.
+          </p>
+          <div style={{ textAlign: 'center', marginTop: '2rem' }} className="cc-fade-in">
             <a
               href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
               className="btn-primary"

@@ -56,15 +56,8 @@ function AboutPage() {
           <div className="cc-about-grid">
             {/* Photo */}
             <div className="cc-fade-in">
-              <div
-                className="cc-about-photo"
-                aria-label="[PHOTO OF DONNA]"
-              >
-                <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-                  <circle cx="28" cy="20" r="12" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M4 52c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                </svg>
-                <span style={{ textAlign: 'center' }}>Photo of Donna</span>
+              <div className="cc-about-photo">
+                <img src="/donna.jpg" alt="Donna Chisholm" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               </div>
             </div>
 
@@ -110,7 +103,7 @@ function AboutPage() {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M8 1l1.8 3.6L14 5.5l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1L2 5.5l4.2-.9L8 1z" fill="var(--terracotta)" />
                 </svg>
-                <span>High Sensory Person (HSP) — her superpower</span>
+                <span>High Sensory Person (HSP), her superpower</span>
               </div>
             </div>
           </div>
@@ -129,7 +122,7 @@ function AboutPage() {
                 "What I offer my clients is deep presence, listening, and attunement
                 practices in guiding them through relational challenges."
               </p>
-              <cite>— Donna Chisholm, Connected Coaching</cite>
+              <cite>Donna Chisholm, Connected Coaching</cite>
             </div>
           </div>
         </div>

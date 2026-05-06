@@ -54,17 +54,6 @@ function useFadeIn(ref: React.RefObject<HTMLElement | null>) {
   }, [ref])
 }
 
-function PhotoPlaceholder({ className }: { className?: string }) {
-  return (
-    <div className={className}>
-      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-        <circle cx="24" cy="18" r="9" stroke="currentColor" strokeWidth="1.5" />
-        <path d="M6 42c0-9.941 8.059-18 18-18s18 8.059 18 18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-      <span>Photo of Donna</span>
-    </div>
-  )
-}
 
 function HomePage() {
   const pageRef = useRef<HTMLDivElement>(null)
@@ -75,7 +64,7 @@ function HomePage() {
       {/* Hero */}
       <section className="cc-hero">
         <div className="cc-hero-content">
-          <p className="cc-hero-eyebrow">Eugene, Oregon · Remote Practice</p>
+          <p className="cc-hero-eyebrow">Bend, Oregon · Remote Practice</p>
           <h1>
             Strengthening <em>connection</em> in relationships.
           </h1>
@@ -97,7 +86,7 @@ function HomePage() {
         </div>
         <div className="cc-hero-visual">
           <div className="cc-organic-shape">
-            <PhotoPlaceholder className="cc-photo-placeholder" />
+            <img src="/donna.jpg" alt="Donna Chisholm" className="cc-hero-photo" />
           </div>
         </div>
       </section>
@@ -121,7 +110,7 @@ function HomePage() {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M8 1l1.8 3.6L14 5.5l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1L2 5.5l4.2-.9L8 1z" fill="var(--terracotta)" />
                 </svg>
-                <span>High Sensory Person (HSP) — her superpower</span>
+                <span>High Sensory Person (HSP), her superpower</span>
               </div>
               <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--warm-muted)', lineHeight: 1.8, fontWeight: 300 }}>
                 As a Highly Sensitive Person, Donna brings deep attunement, profound empathy,
@@ -135,7 +124,7 @@ function HomePage() {
                   "What I offer my clients is deep presence, listening, and attunement
                   practices in guiding them through relational challenges."
                 </p>
-                <cite>— Donna Chisholm</cite>
+                <cite>Donna Chisholm</cite>
               </div>
               <Link to="/about" className="btn-secondary">
                 Read Donna's Story
