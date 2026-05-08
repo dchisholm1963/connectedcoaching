@@ -47,7 +47,9 @@ export function Nav() {
             ))}
             <li>
               <a
-                href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
+                href="https://calendly.com/connectedcoachingdc/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="cc-nav-cta"
               >
                 Book a Call
@@ -76,7 +78,9 @@ export function Nav() {
           </Link>
         ))}
         <a
-          href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
+          href="https://calendly.com/connectedcoachingdc/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{ color: 'var(--terracotta)', fontWeight: 500 }}
         >
           Book a Discovery Call

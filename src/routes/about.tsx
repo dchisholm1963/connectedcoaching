@@ -172,7 +172,9 @@ function AboutPage() {
             working together is a good fit.
           </p>
           <a
-            href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
+            href="https://calendly.com/connectedcoachingdc/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary"
           >
             Book a Discovery Call

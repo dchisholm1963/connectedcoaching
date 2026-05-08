@@ -74,7 +74,9 @@ function HomePage() {
           </p>
           <div className="cc-hero-actions">
             <a
-              href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
+              href="https://calendly.com/connectedcoachingdc/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
             >
               Book a Discovery Call
@@ -214,7 +216,9 @@ function HomePage() {
               View Services
             </Link>
             <a
-              href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request"
+              href="https://calendly.com/connectedcoachingdc/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: 'inline-block',
                 background: 'transparent',

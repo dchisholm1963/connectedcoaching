@@ -31,7 +31,7 @@ export function Footer() {
               <br /><br />
               Bend, Oregon<br />
               Remote sessions available<br /><br />
-              <a href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request" className="btn-primary" style={{ fontSize: '0.75rem', padding: '0.6rem 1.25rem' }}>
+              <a href="https://calendly.com/connectedcoachingdc/30min" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: '0.75rem', padding: '0.6rem 1.25rem' }}>
                 Book a Discovery Call
               </a>
             </p>
