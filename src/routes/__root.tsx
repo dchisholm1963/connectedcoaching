@@ -9,7 +9,7 @@ export const Route = createRootRoute({
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { title: 'Connected Coaching — Donna Chisholm' },
-      { name: 'description', content: 'A private coaching practice designed to strengthen connection in relationships. Donna Chisholm is a Relational Coach, MSC Teacher, Physical Therapist, and Authentic Relating Facilitator based in Eugene, Oregon.' },
+      { name: 'description', content: 'A private coaching practice designed to strengthen connection in relationships. Donna Chisholm is a Relational Coach, MSC Teacher, Physical Therapist, and Authentic Relating Facilitator based in Bend, Oregon.' },
     ],
     links: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

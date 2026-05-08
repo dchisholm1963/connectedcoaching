@@ -9,7 +9,7 @@ export function Footer() {
             <h3>Connected Coaching</h3>
             <p>
               A private practice designed to strengthen connection in relationships.
-              Based in Eugene, Oregon. Serving clients remotely.
+              Based in Bend, Oregon. Serving clients remotely.
             </p>
           </div>
           <div className="cc-footer-col">
@@ -29,7 +29,7 @@ export function Footer() {
               Ready to begin?<br />
               <a href="mailto:dchisholm114@gmail.com">dchisholm114@gmail.com</a>
               <br /><br />
-              Eugene, Oregon<br />
+              Bend, Oregon<br />
               Remote sessions available<br /><br />
               <a href="mailto:dchisholm114@gmail.com?subject=Discovery Call Request" className="btn-primary" style={{ fontSize: '0.75rem', padding: '0.6rem 1.25rem' }}>
                 Book a Discovery Call
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
         <div className="cc-footer-bottom">
           <p>&copy; 2026 Connected Coaching · Donna Chisholm · All rights reserved.</p>
-          <p style={{ fontSize: '0.72rem', opacity: 0.5 }}>Eugene, Oregon</p>
+          <p style={{ fontSize: '0.72rem', opacity: 0.5 }}>Bend, Oregon</p>
         </div>
       </div>
     </footer>

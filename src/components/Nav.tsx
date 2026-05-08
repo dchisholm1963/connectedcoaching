@@ -32,7 +32,7 @@ export function Nav() {
         <div className="cc-nav-inner">
           <Link to="/" className="cc-nav-logo">
             Connected Coaching
-            <span>Donna Chisholm · Eugene, OR</span>
+            <span>Donna Chisholm · Bend, OR</span>
           </Link>
           <ul className="cc-nav-links">
             {navLinks.map(link => (
