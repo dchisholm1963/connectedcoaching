@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 export const Route = createFileRoute('/')({
   component: HomePage,
   head: () => ({
-    meta: [{ title: 'Connected Coaching — Donna Chisholm' }],
+    meta: [{ title: 'Connected Coaching | Donna Chisholm' }],
   }),
 })
 
@@ -70,7 +70,7 @@ function HomePage() {
           </h1>
           <p className="cc-hero-sub">
             A private practice designed for individuals, couples, and families ready
-            to transform how they relate — to themselves and to the people they love.
+            to transform how they relate, to themselves and to the people they love.
           </p>
           <div className="cc-hero-actions">
             <a
@@ -114,7 +114,7 @@ function HomePage() {
               </div>
               <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--warm-muted)', lineHeight: 1.8, fontWeight: 300 }}>
                 As a Highly Sensitive Person, Donna brings deep attunement, profound empathy,
-                and a rare capacity for presence to her work — qualities that make her
+                and a rare capacity for presence to her work, qualities that make her
                 particularly gifted at guiding others through relational healing.
               </p>
             </div>
@@ -141,7 +141,7 @@ function HomePage() {
             <p className="cc-section-eyebrow">Training & Credentials</p>
             <h2 className="cc-section-title">A Foundation Built on Depth</h2>
             <p className="cc-section-lead">
-              Donna's training spans multiple lineages of healing — integrating mindfulness,
+              Donna's training spans multiple lineages of healing, integrating mindfulness,
               somatic practice, relational neuroscience, and compassion-based teaching
               into a coherent, embodied approach.
             </p>

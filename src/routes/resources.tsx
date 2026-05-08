@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 export const Route = createFileRoute('/resources')({
   component: ResourcesPage,
   head: () => ({
-    meta: [{ title: 'Resources — Connected Coaching' }],
+    meta: [{ title: 'Resources | Connected Coaching' }],
   }),
 })
 
@@ -29,7 +29,7 @@ const resources = [
   {
     name: 'Inluminance',
     url: 'https://inluminance.com',
-    description: 'HSP Coaching with Willow McIntosh — specialist training in coaching Highly Sensitive Persons.',
+    description: 'HSP Coaching with Willow McIntosh; specialist training in coaching Highly Sensitive Persons.',
     category: 'Relational Coaching',
   },
   {
@@ -41,13 +41,13 @@ const resources = [
   {
     name: 'Thomas Hübl',
     url: 'https://thomashuebl.com',
-    description: 'Collective and intergenerational trauma healing — a pioneering approach to trauma integration.',
+    description: 'Collective and intergenerational trauma healing; a pioneering approach to trauma integration.',
     category: 'Trauma Healing',
   },
   {
-    name: 'MSC Program — Mindful Self-Compassion',
+    name: 'MSC Program: Mindful Self-Compassion',
     url: 'https://self-compassion.org/the-program',
-    description: 'Kristen Neff\'s evidence-based self-compassion training program — the foundation of Donna\'s MSC teaching.',
+    description: 'Kristen Neff\'s evidence-based self-compassion training program; the foundation of Donna\'s MSC teaching.',
     category: 'Self-Compassion',
   },
   {
@@ -59,19 +59,19 @@ const resources = [
   {
     name: 'The Circling Institute',
     url: 'https://circlinginstitute.com',
-    description: 'Guy Sengstock\'s Circling practice — a relational meditation for deepening presence and authentic relating.',
+    description: 'Guy Sengstock\'s Circling practice; a relational meditation for deepening presence and authentic relating.',
     category: 'Authentic Relating',
   },
   {
     name: 'Authentic Revolution',
     url: 'https://authrev.org',
-    description: 'Sara Ness\'s global community for Authentic Relating — transformative relational practices and workshops.',
+    description: 'Sara Ness\'s global community for Authentic Relating; transformative relational practices and workshops.',
     category: 'Authentic Relating',
   },
   {
     name: 'Banyan',
     url: 'https://cloudsangha.co',
-    description: 'Tara Brach & Jack Kornfield\'s online meditation community — where Donna teaches mindfulness.',
+    description: 'Tara Brach & Jack Kornfield\'s online meditation community, where Donna teaches mindfulness.',
     category: 'Mindfulness',
   },
 ]

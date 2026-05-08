@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 export const Route = createFileRoute('/why-work-with-me')({
   component: WhyWorkWithMePage,
   head: () => ({
-    meta: [{ title: 'Why Work With Donna — Connected Coaching' }],
+    meta: [{ title: 'Why Work With Donna | Connected Coaching' }],
   }),
 })
 
@@ -28,7 +28,7 @@ function useFadeIn(ref: React.RefObject<HTMLElement | null>) {
 const outcomes = [
   {
     title: 'A Transformed Relationship with Yourself',
-    body: 'Develop a kinder, more spacious relationship with your own inner life — your thoughts, emotions, and needs — as the foundation for healthier connections with others.',
+    body: 'Develop a kinder, more spacious relationship with your own inner life, including your thoughts, emotions, and needs, as the foundation for healthier connections with others.',
   },
   {
     title: 'A Fearless Approach to Connection',
@@ -36,27 +36,27 @@ const outcomes = [
   },
   {
     title: 'Respond Rather Than React',
-    body: 'Cultivate the capacity to pause and choose your response — rather than being swept away by habitual, defensive, or reactive patterns under stress.',
+    body: 'Cultivate the capacity to pause and choose your response, rather than being swept away by habitual, defensive, or reactive patterns under stress.',
   },
   {
     title: 'Confident, Clear Communication',
-    body: 'Learn to express your needs, feelings, and boundaries with clarity, care, and confidence — even in difficult conversations.',
+    body: 'Learn to express your needs, feelings, and boundaries with clarity, care, and confidence, even in difficult conversations.',
   },
   {
     title: 'A Deep Sense of Belonging',
-    body: 'Experience what it feels like to truly belong — to yourself, to your relationships, and to the wider world around you.',
+    body: 'Experience what it feels like to truly belong, to yourself, to your relationships, and to the wider world around you.',
   },
   {
     title: 'Grace Over Self-Criticism',
-    body: "Replace the inner critic's voice with something softer and truer — a capacity for self-compassion that becomes the ground for genuine growth.",
+    body: "Replace the inner critic's voice with something softer and truer; a capacity for self-compassion that becomes the ground for genuine growth.",
   },
   {
     title: 'Full Acceptance of Your Whole Self',
-    body: 'Integrate the parts of yourself that have felt too much, too little, or simply too different — and arrive at a genuine sense of wholeness.',
+    body: 'Integrate the parts of yourself that have felt too much, too little, or simply too different, arriving at a genuine sense of wholeness.',
   },
   {
     title: 'Meeting Difficult Emotions with Curiosity',
-    body: 'Develop the inner resources to be with challenging feelings — grief, anger, fear — with curiosity and care rather than avoidance or overwhelm.',
+    body: 'Develop the inner resources to be with challenging feelings, including grief, anger, and fear, with curiosity and care rather than avoidance or overwhelm.',
   },
 ]
 
@@ -99,7 +99,7 @@ function WhyWorkWithMePage() {
           </h1>
           <p className="cc-section-lead" style={{ maxWidth: '620px' }}>
             What clients take away from working with Donna goes beyond information
-            or insight — it becomes a lived, embodied shift in how they relate.
+            or insight; it becomes a lived, embodied shift in how they relate.
           </p>
         </div>
       </section>
@@ -148,7 +148,7 @@ function WhyWorkWithMePage() {
             Begin Your Journey
           </h2>
           <p className="cc-section-lead" style={{ margin: '0 auto 2.5rem', textAlign: 'center' }}>
-            A discovery call is the natural first step — a free conversation to see
+            A discovery call is the natural first step; a free conversation to see
             if working together feels like the right fit.
           </p>
           <a

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 export const Route = createFileRoute('/services')({
   component: ServicesPage,
   head: () => ({
-    meta: [{ title: 'Services & Classes — Connected Coaching' }],
+    meta: [{ title: 'Services & Classes | Connected Coaching' }],
   }),
 })
 
@@ -189,7 +189,7 @@ function ServicesPage() {
               <div className="cc-price">$100 / 4 classes</div>
               <div style={{ marginTop: '1.5rem' }}>
                 <a
-                  href="mailto:dchisholm114@gmail.com?subject=Connection & Belonging Class — Registration"
+                  href="mailto:dchisholm114@gmail.com?subject=Connection & Belonging Class: Registration"
                   style={{
                     display: 'inline-block',
                     background: 'rgba(255,255,255,0.15)',
@@ -224,7 +224,7 @@ function ServicesPage() {
               <div className="cc-price">$100 / 4 classes</div>
               <div style={{ marginTop: '1.5rem' }}>
                 <a
-                  href="mailto:dchisholm114@gmail.com?subject=Mindfulness for Anxiety Series — Registration"
+                  href="mailto:dchisholm114@gmail.com?subject=Mindfulness for Anxiety Series: Registration"
                   style={{
                     display: 'inline-block',
                     background: 'rgba(255,255,255,0.15)',
@@ -359,7 +359,7 @@ function ServicesPage() {
               <h2 className="cc-section-title">Start the Conversation</h2>
               <p className="cc-section-lead">
                 Not sure where to start? Send a message and Donna will get back to you
-                personally. There's no commitment involved — just a conversation.
+                personally. There's no commitment involved; just a conversation.
               </p>
               <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <p style={{ fontSize: '0.85rem', fontWeight: 300, color: 'var(--warm-muted)', margin: 0, lineHeight: 1.7 }}>

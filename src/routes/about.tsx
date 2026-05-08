@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 export const Route = createFileRoute('/about')({
   component: AboutPage,
   head: () => ({
-    meta: [{ title: 'About Donna — Connected Coaching' }],
+    meta: [{ title: 'About Donna | Connected Coaching' }],
   }),
 })
 
@@ -72,11 +72,11 @@ function AboutPage() {
                   Donna's path to relational coaching was forged through her own lived experience.
                   She draws from childhood trauma, the profound losses of family members to addiction
                   and suicide, the demands of single parenting, the grief of divorce, major career
-                  change, and significant health struggles — a life that has required her to find
+                  change, and significant health struggles, a life that has required her to find
                   her way back to herself again and again.
                 </p>
                 <p style={{ margin: 0 }}>
-                  These experiences didn't just prepare her for this work — they are the work.
+                  These experiences didn't just prepare her for this work; they are the work.
                   They are the reason she understands the complexity of human relationships at a
                   depth that cannot be taught from a textbook. Every challenge she has moved
                   through has deepened her capacity to be present with others in theirs.
@@ -84,13 +84,13 @@ function AboutPage() {
                 <p style={{ margin: 0 }}>
                   As a licensed Physical Therapist since 1989 (Texas Women's University), Donna
                   began her career in the body. Over time, she followed her curiosity into the
-                  territory of the mind and heart — training in mindfulness, self-compassion,
+                  territory of the mind and heart, training in mindfulness, self-compassion,
                   somatic practices, collective trauma work, and relational coaching. Today, she
                   weaves all of these threads into a uniquely integrative practice.
                 </p>
                 <p style={{ margin: 0 }}>
                   Donna is also a Highly Sensitive Person (HSP). Far from a limitation, she has
-                  come to understand her sensitivity as a profound gift — one that allows her to
+                  come to understand her sensitivity as a profound gift, one that allows her to
                   attune to the subtle currents in a conversation, to hold space with extraordinary
                   care, and to meet each client exactly where they are.
                 </p>
