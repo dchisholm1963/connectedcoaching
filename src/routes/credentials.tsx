@@ -24,83 +24,67 @@ function useFadeIn(ref: React.RefObject<HTMLElement | null>) {
 
 const credentials = [
   {
-    num: '01',
     title: 'Mindfulness Meditation Teaching',
-    items: [
-      {
-        text: 'Teacher at Banyan, founded by Tara Brach and Jack Kornfield. January 2024 — Present.',
-        link: { href: 'https://banyantogether.com/teachers/tfnJUOPJjm21mdmA4O1U', label: 'View teacher profile' },
-      },
+    org: 'Banyan',
+    orgSub: 'Founded by Tara Brach and Jack Kornfield',
+    date: 'January 2024 – Present',
+    bullets: [
+      { text: 'Teacher at Banyan, an online mindfulness community in the tradition of Tara Brach and Jack Kornfield.' },
     ],
+    link: { href: 'https://banyantogether.com/teachers/tfnJUOPJjm21mdmA4O1U', label: 'View teacher profile' },
   },
   {
-    num: '02',
     title: 'Relational Coaching',
-    items: [
-      {
-        text: 'Graduate of High-Sensory Coaching with Willow McIntosh, founder of Inluminance. Dec 2022.',
-        link: { href: 'https://www.youtube.com/watch?v=tiMubaVIizg&t=231s', label: 'View full interview with Willow McIntosh' },
-      },
+    org: 'Inluminance',
+    orgSub: 'Willow McIntosh, Founder',
+    date: 'Dec 2022',
+    bullets: [
+      { text: 'Graduate of High-Sensory Coaching with Willow McIntosh, founder of Inluminance.' },
     ],
+    link: { href: 'https://www.youtube.com/watch?v=tiMubaVIizg&t=231s', label: 'View full interview with Willow McIntosh' },
   },
   {
-    num: '03',
     title: 'Trauma Healing and Integration',
-    items: [
-      {
-        text: 'Presenter at local Healing Trauma Conference, "Understanding Our Amazing Nervous System as a Tool for Healing Trauma And Disease." 2019.',
-      },
-      {
-        text: "Graduate of Conscious Healing, Thomas Hübl's year-long intensive, with continuous study. 2019.",
-      },
-      {
-        text: 'Ongoing independent research and study of healing trauma with an emphasis on Embodiment Practices and Nervous System Education and Regulation.',
-      },
+    org: 'Thomas Hübl · Independent Study',
+    orgSub: '',
+    date: '2019 – Present',
+    bullets: [
+      { text: 'Presenter at local Healing Trauma Conference, "Understanding Our Amazing Nervous System as a Tool for Healing Trauma And Disease." 2019.' },
+      { text: "Graduate of Conscious Healing, Thomas Hübl's year-long intensive, with continuous study. 2019." },
+      { text: 'Ongoing independent research and study of healing trauma with an emphasis on Embodiment Practices and Nervous System Education and Regulation.' },
     ],
   },
   {
-    num: '04',
     title: 'Mindfulness & Self-Compassion (MSC)',
-    items: [
-      {
-        text: 'Graduate of year-long MSC Program by Kristen Neff, PhD and Chris Germer, PhD.',
-      },
-      {
-        text: 'Current participant in numerous ongoing summits focusing on this beloved topic. Attended too many to list! 2018 — Present.',
-      },
-      {
-        text: 'Ongoing independent research and study.',
-      },
+    org: 'Kristen Neff, PhD & Chris Germer, PhD',
+    orgSub: '',
+    date: '2018 – Present',
+    bullets: [
+      { text: 'Graduate of year-long MSC Program by Kristen Neff, PhD and Chris Germer, PhD.' },
+      { text: 'Current participant in numerous ongoing summits focusing on this beloved topic. Attended too many to list!' },
+      { text: 'Ongoing independent research and study.' },
     ],
   },
   {
-    num: '05',
     title: 'Embodiment & Somatic Practices',
-    items: [
-      {
-        text: 'Registered Yoga Teacher (RYT) 200-Hour Program with Radiant Health Yoga. 2016.',
-      },
-      {
-        text: 'Participant in Neurosomatic Mindfulness Program with Heart Mind Institute with Fleet Maull, PhD. 2020.',
-      },
-      {
-        text: 'Participant in numerous Somatic and Embodiment Summits. Again, too many to list! 2016 — Present.',
-      },
+    org: 'Radiant Health Yoga · Heart Mind Institute',
+    orgSub: '',
+    date: '2016 – Present',
+    bullets: [
+      { text: 'Registered Yoga Teacher (RYT) 200-Hour Program with Radiant Health Yoga. 2016.' },
+      { text: 'Participant in Neurosomatic Mindfulness Program with Heart Mind Institute with Fleet Maull, PhD. 2020.' },
+      { text: 'Participant in numerous Somatic and Embodiment Summits. Again, too many to list!' },
     ],
   },
   {
-    num: '06',
     title: 'Physical Therapy & Nervous System Education',
-    items: [
-      {
-        text: '1989 Graduate of Texas Women\'s University in Physical Therapy, specializing in neurological deficits, geriatric medicine, and rehabilitation.',
-      },
-      {
-        text: 'Current participant in numerous ongoing summits with an emphasis on the Importance of Nervous System Regulation to Heal Trauma and Disease. 2017 — Present.',
-      },
-      {
-        text: 'Independent research and study.',
-      },
+    org: 'Texas Women\'s University',
+    orgSub: 'Licensed Physical Therapist',
+    date: '1989 – Present',
+    bullets: [
+      { text: '1989 Graduate of Texas Women\'s University in Physical Therapy, specializing in neurological deficits, geriatric medicine, and rehabilitation.' },
+      { text: 'Current participant in numerous ongoing summits with an emphasis on the Importance of Nervous System Regulation to Heal Trauma and Disease. 2017 – Present.' },
+      { text: 'Independent research and study.' },
     ],
   },
 ]
@@ -135,95 +119,92 @@ function CredentialsPage() {
       <section className="cc-section bg-cream-light">
         <div className="cc-section-inner">
           <div
-            style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}
+            style={{ display: 'flex', flexDirection: 'column', gap: '0' }}
             className="cc-fade-in"
           >
-            {credentials.map((cred) => (
+            {credentials.map((cred, i) => (
               <div
-                key={cred.num}
+                key={i}
                 style={{
-                  display: 'grid',
-                  gridTemplateColumns: '4rem 1fr',
-                  gap: '1.5rem',
-                  paddingBottom: '2.5rem',
-                  borderBottom: '1px solid var(--cream-border, rgba(180,160,130,0.2))',
+                  padding: '2rem 0',
+                  borderBottom: '1px solid rgba(180,160,130,0.2)',
+                  maxWidth: '780px',
                 }}
               >
-                <div
-                  style={{
+                {/* Title + Date row */}
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '1rem', marginBottom: '0.2rem' }}>
+                  <h2 style={{
                     fontFamily: 'Jost, sans-serif',
-                    fontSize: '0.75rem',
-                    letterSpacing: '0.15em',
-                    color: 'var(--terracotta)',
-                    fontWeight: 400,
-                    paddingTop: '0.2rem',
-                  }}
-                >
-                  {cred.num}
-                </div>
-                <div>
-                  <h2
-                    style={{
-                      fontFamily: 'Cormorant Garamond, serif',
-                      fontSize: 'clamp(1.3rem, 2.5vw, 1.75rem)',
-                      fontWeight: 500,
-                      color: 'var(--warm-dark)',
-                      margin: '0 0 1rem',
-                    }}
-                  >
+                    fontSize: '1rem',
+                    fontWeight: 600,
+                    color: 'var(--warm-dark)',
+                    margin: 0,
+                    letterSpacing: '0.01em',
+                  }}>
                     {cred.title}
                   </h2>
-                  <ul
+                  <span style={{
+                    fontFamily: 'Jost, sans-serif',
+                    fontSize: '0.82rem',
+                    fontWeight: 300,
+                    color: 'var(--warm-muted)',
+                    whiteSpace: 'nowrap',
+                    flexShrink: 0,
+                  }}>
+                    {cred.date}
+                  </span>
+                </div>
+
+                {/* Org line */}
+                <p style={{
+                  fontFamily: 'Cormorant Garamond, serif',
+                  fontSize: '1rem',
+                  fontStyle: 'italic',
+                  fontWeight: 400,
+                  color: 'var(--warm-mid)',
+                  margin: '0 0 1rem',
+                }}>
+                  {cred.org}{cred.orgSub ? ` · ${cred.orgSub}` : ''}
+                </p>
+
+                {/* Bullets */}
+                <ul style={{ margin: '0 0 0 1.1rem', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                  {cred.bullets.map((b, j) => (
+                    <li key={j} style={{
+                      fontSize: '0.9rem',
+                      fontWeight: 300,
+                      color: 'var(--warm-mid)',
+                      lineHeight: 1.75,
+                    }}>
+                      {b.text}
+                    </li>
+                  ))}
+                </ul>
+
+                {/* Link */}
+                {cred.link && (
+                  <a
+                    href={cred.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
-                      listStyle: 'none',
-                      padding: 0,
-                      margin: 0,
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '0.75rem',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.3rem',
+                      marginTop: '0.75rem',
+                      color: 'var(--terracotta)',
+                      fontFamily: 'Jost, sans-serif',
+                      fontSize: '0.82rem',
+                      fontWeight: 400,
+                      textDecoration: 'none',
                     }}
                   >
-                    {cred.items.map((item, j) => (
-                      <li
-                        key={j}
-                        style={{
-                          fontSize: '0.9rem',
-                          fontWeight: 300,
-                          color: 'var(--warm-mid)',
-                          lineHeight: 1.75,
-                          paddingLeft: '1.25rem',
-                          borderLeft: '2px solid var(--terracotta)',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          gap: '0.35rem',
-                        }}
-                      >
-                        <span>{item.text}</span>
-                        {item.link && (
-                          <a
-                            href={item.link.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{
-                              color: 'var(--terracotta)',
-                              fontWeight: 400,
-                              fontSize: '0.82rem',
-                              textDecoration: 'none',
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '0.3rem',
-                            }}
-                          >
-                            {item.link.label}
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                              <path d="M2.5 9.5L9.5 2.5M9.5 2.5H5M9.5 2.5V7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                          </a>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                    {cred.link.label}
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                      <path d="M2.5 9.5L9.5 2.5M9.5 2.5H5M9.5 2.5V7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </a>
+                )}
               </div>
             ))}
           </div>
