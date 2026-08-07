@@ -3,9 +3,6 @@ import { useEffect, useRef, useState } from 'react'
 
 export const Route = createFileRoute('/services')({
   component: ServicesPage,
-  head: () => ({
-    meta: [{ title: 'Services & Classes | Connected Coaching' }],
-  }),
 })
 
 function encode(data: Record<string, string>) {

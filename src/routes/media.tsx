@@ -3,9 +3,6 @@ import { useEffect, useRef } from 'react'
 
 export const Route = createFileRoute('/media')({
   component: MediaPage,
-  head: () => ({
-    meta: [{ title: 'Media | Connected Coaching' }],
-  }),
 })
 
 function useFadeIn(ref: React.RefObject<HTMLElement | null>) {

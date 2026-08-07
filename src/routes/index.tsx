@@ -3,9 +3,6 @@ import { useEffect, useRef } from 'react'
 
 export const Route = createFileRoute('/')({
   component: HomePage,
-  head: () => ({
-    meta: [{ title: 'Connected Coaching | Donna Chisholm' }],
-  }),
 })
 
 const credentials = [
