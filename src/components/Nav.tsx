@@ -6,10 +6,7 @@ const navLinks = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/services', label: 'Services' },
-  { to: '/why-work-with-me', label: 'Why Donna' },
-  { to: '/credentials', label: 'Credentials' },
   { to: '/resources', label: 'Resources' },
-  { to: '/media', label: 'Media' },
 ]
 
 export function Nav() {

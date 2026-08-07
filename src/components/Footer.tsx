@@ -18,10 +18,7 @@ export function Footer() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Donna</Link></li>
               <li><Link to="/services">Services &amp; Classes</Link></li>
-              <li><Link to="/why-work-with-me">Why Work With Me</Link></li>
-              <li><Link to="/credentials">Credentials</Link></li>
-              <li><Link to="/resources">Resources</Link></li>
-              <li><Link to="/media">Media</Link></li>
+              <li><Link to="/resources">Resources &amp; Media</Link></li>
             </ul>
           </div>
           <div className="cc-footer-col cc-footer-contact">
