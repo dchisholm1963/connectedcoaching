@@ -110,7 +110,7 @@ function CredentialsPage() {
           </h1>
           <p className="cc-section-lead" style={{ maxWidth: '620px' }}>
             Donna's training spans multiple traditions and modalities, unified by a
-            commitment to embodied, compassionate, relational healing.
+            commitment to embodied, compassionate and relational healing.
           </p>
         </div>
       </section>
