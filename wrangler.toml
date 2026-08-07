@@ -8,9 +8,9 @@ directory = "dist"
 not_found_handling = "single-page-application"
 
 [[routes]]
-pattern = "connectedcoachinghsp.com/*"
+pattern = "connectedcoachinghsp.com"
 custom_domain = true
 
 [[routes]]
-pattern = "www.connectedcoachinghsp.com/*"
+pattern = "www.connectedcoachinghsp.com"
 custom_domain = true
